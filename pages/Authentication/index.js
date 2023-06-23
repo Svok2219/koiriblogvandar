@@ -67,7 +67,7 @@ export default function Example() {
             <div>
               <Link href="/">
                 <a>
-                  <Image
+                  <img
                     className="mx-auto h-16 w-auto"
                     src="https://shuvokoiriofficial.netlify.app/images/shuvo.png"
                     alt="Workflow"

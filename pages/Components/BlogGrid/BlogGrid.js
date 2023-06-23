@@ -236,7 +236,7 @@ const myFunctionPoetry =()=>{
                 <div className="w-full">
                     <div className="w-full flex p-2">
                         <div className="p-2 ">
-                          <Image
+                          <img     
                             src="https://shuvokoiriofficial.netlify.app/images/shuvo.png" alt="author" 
                             className="w-10 h-10 rounded-full overflow-hidden"/>
                         </div>
@@ -248,7 +248,7 @@ const myFunctionPoetry =()=>{
                 </div>
                 
               
-              <Image className="lg:h-48 md:h-36 w-full object-cover object-center" src={blg.BlogThumbnail} alt="blog cover"/>
+              <img      className="lg:h-48 md:h-36 w-full object-cover object-center" src={blg.BlogThumbnail} alt="blog cover"/>
               
               <div className="p-4">
                 <h2 className="tracking-widest text-xs title-font font-bold text-stone-400 mb-1 uppercase ">{blg.BlogCategory

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 // import { useAuth } from '../context/AuthUserContext';
-import BlogPost from './BlogPost';
+import BlogPost from './BP';
 import { useAuth } from '../../context/AuthUserContext';
 import PrivateRoute from '../PrivateRoute';
 

@@ -279,7 +279,7 @@ Sign in with existing Account
 
 CommentsOfthePost.map((key)=>
 		<div key={key._id} className="flex flex-col space-y-4 md:space-y-0 my-8 md:space-x-6 md:flex-row">
-    <Image src={key.photoURL ? key.photoURL : "https://cdn-icons-png.flaticon.com/512/2817/2817796.png"} alt="" className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700" />
+    <img      src={key.photoURL ? key.photoURL : "https://cdn-icons-png.flaticon.com/512/2817/2817796.png"} alt="" className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700" />
     <div className="flex flex-col">
       <h4 className="text-lg font-semibold">{key.Commentor}</h4>
       <p className="dark:text-gray-400">{key.Body}</p>
@@ -289,7 +289,7 @@ CommentsOfthePost.map((key)=>
   <div className="  flex items-center justify-center 	">
      <h1 className="mt-3 text-black text-2xl">No Comments Has Been Posted to the blog yet!</h1>
      <div className="flex items-center justify-center ">
-     <Image className="	 mt-2" src="https://2.bp.blogspot.com/-_OiN6gLXQB4/XR1L8qyFrlI/AAAAAAAMmWg/vh8inPGWtrIqx6G1i6mWnbHXGVGeac1mwCLcBGAs/s1600/AS0005464_18.gif" alt="no comments till now"/>
+     <img      className="	 mt-2" src="https://2.bp.blogspot.com/-_OiN6gLXQB4/XR1L8qyFrlI/AAAAAAAMmWg/vh8inPGWtrIqx6G1i6mWnbHXGVGeac1mwCLcBGAs/s1600/AS0005464_18.gif" alt="no comments till now"/>
    </div>
 
   </div>
